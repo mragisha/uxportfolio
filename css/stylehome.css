@@ -1,0 +1,106 @@
+html {
+    scroll-behavior: smooth;
+    }
+    body{
+        font-family: 'Open Sans', sans-serif;
+        position: relative;
+    }
+    .main{
+        margin-top: 20vh;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        
+    }
+    .details{
+        font-size: 20px;
+        margin-top: 40px;
+        line-height: 33px;
+        letter-spacing: 1px;
+    }
+
+    .scroll{
+        margin-top: 50px;
+        font-size: 17px;
+    }
+
+    .arrow{
+        margin-top: 20px;
+        font-size: 30px;
+        color: #00a3af;
+        animation-duration: 2.5s;
+        animation-iteration-count: infinite;
+    }
+    .work{
+        margin-top: 25vh;
+     
+       
+    }
+   
+    .content{
+        margin-top: 20px;
+        padding: 100px;
+     }
+    .text{
+        opacity: 0;
+        transform: translate(40px);
+        transition: 0.5s all ease-in-out;
+    }
+    .text-appear{
+        opacity: 1;
+        transform: translate(0px);
+    }
+    .stockimg{
+       margin-left: 10vw;
+    }
+    
+
+    .typing{
+        margin-left: 10px;
+        position: relative;
+    }
+    .typing::after{
+        content: "";
+        position: absolute;
+        width: 1px;
+        height:100% ;
+        border-right: 2px solid black;
+        animation: blink 0.5s infinite ease;
+    }
+    .homelogo:hover{
+        opacity: 0.6;
+    }
+    .logotext a h2{
+        font-size: 5rem;
+    }
+    .logotext p{
+        font-size:3rem;
+    }
+    @keyframes blink{
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+    @media screen and (max-width: 768px){
+        .stockimg{
+            margin-left: 0vw;
+            width: 90%;
+        }
+        .homelogo{
+            width: 60%;
+            height: 60%;
+        }
+        .main{
+            margin-top:10vh;
+        }
+        .logotext a h2{
+            font-size: 20px;
+        }
+        .logotext p{
+            font-size: 10px;
+        }
+    }
+    

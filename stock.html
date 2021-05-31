@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css\stylestock.css">
+    <link rel="stylesheet" type="text/css" href="css\styleheader.css">
+    <link rel="stylesheet" type="text/css" href="css\stylefooter.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="shortcut icon" type="image/png" href="portfolioimages/home/logo.png">
+    <script src="https://use.fontawesome.com/5a55d06455.js"></script>
+    <title>Stock Scanner App | Nimisha Jain</title>
+
+    
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar  navbar-default navbar-style navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle burger" data-toggle="collapse" data-target="#myNavbar">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>  
+                    </button>
+      
+                    <a href="index.html"><img class="logo" src="logom.png"></a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right navcontent " >
+                    <li><a class="under" href="index.html" href="#home">Home</a></li>
+                    <li><a class="under"href="about.html">About</a></li>
+                    <li class="dropdown current">
+                      <a class="dropdown-toggle" data-toggle="dropdown" href="#">Work </a>
+                      <ul class="dropdown-menu drop">
+                        <li><a  href="program.html">Program Admin's Dashboard</a></li>
+                            <li><a  href="preppy.html">Preppy</a></li>
+                            <li><a  href="delivery.html">Delivery Driver's App</a></li>
+                            <li><a  href="medicare.html">Medicare Enrollment Portal </a></li>
+                            <li ><a  class="active"href="stock.html">Stock Scanning App </a></li>
+                              <li><a  href="visualr.html">Visual Design</a></li>
+                      </ul>    
+                    </li>
+                    <li><a class="under" href="contact.html">Contact</a></li>
+                    <li><a class="under"href="resume.html">Resume</a></li>
+                </ul>
+                </div>  
+            </div>
+        </nav>
+      </header>
+      <script>
+        const burger=document.querySelector('.burger');
+         burger.addEventListener("click",()=>{
+                
+                burger.classList.toggle('toggle');
+                $('.navbar-toggle').removeClass('hover');
+                
+            });
+      </script>
+    <div class="container">
+        <div class="row intro">
+            <div class="col-lg-6">
+                <img src="portfolioimages/stock/home screen_edited.png" class="mainimg"  width="120%" height="150%">
+            </div>
+            <div class="col-lg-6 heading" >
+                <span style="font-size: 38px; padding-top:100px; ">
+                    Stock Scanner App</span>
+                     <br>
+                <span style="font-size: 18px;">A SCANNER APPLICATION FOR MANAGING STOCK</span>
+            </div>
+            <a href="#overview"><span class="glyphicon glyphicon-menu-down arrow animated bounce" style="text-align: center; animation-duration: 2.5s;
+                animation-iteration-count: infinite;"></span></a>
+        </div>
+        <div id="overview"></div>
+        <div class="overview" id="overview">
+            <h2 style=" font-size: 35px; letter-spacing: 1.3px;margin-top: 20vh;">Overview</h2>
+            <span style=" color: gray; font-size: 16px; letter-spacing: 1.2px;">Android app | UX/UI | 2 weeks</span>
+            <p style="margin-top: 10vh; ">The client is one of the top three American telecommunications company 
+                which offers wireless products and services. They have huge warehouses and inventories of phones
+                 and other wireless communication devices they sell.</p>
+            <p>
+                The goal was to design a product which helps stock managers to track the inventory, control
+                 and maintain stock levels. The requirement was to save time and energy in searching for
+                  their inventory. The scanning process included- Scan by code, image, and videos.</p>
+        </div>
+
+        <div class="myrole">
+            <h2 style="font-weight: bold; font-size: 20px;">MY ROLE</h2>
+            <p style="margin-top: 4vh; font-size: 17px;">Understanding, Ideation, Sketching, Visual Design</p>
+        </div>
+       <img src="portfolioimages/stock/scanner app.png" width="100%" height="90%" style="margin-top: 10vh;">
+        <div class="process">
+            <h2 style=" font-size: 30px; letter-spacing: 1.3px;">Process</h2>
+            <h2 style="font-weight: bold; font-size: 20px; margin-top: 10vh;">UNDERSTANDING USERS</h2>
+            <p style="margin-top: 8vh; ">For understanding the several parts of the product, that is workflow,
+                 users, user scenarios, etc. We started to interview stakeholders and clients. 
+                 Interacting with people who operate closely with the users and are in direct contact 
+                 with them, helped us understand our users and prepare a sample persona.  </p>
+            <p>
+                Stock managers are primary users of the application to scan and update the
+                 stock. We created a rough persona of the user of this app.
+            </p>
+            </div>
+            <img src="portfolioimages/stock/scanner persona.png" width="80%" height="40%" style="margin-top: 10vh; margin-left: 10vw;">
+            <div class="process">
+            <h3 style="margin-top: 8vh; font-size: 18px; font-weight: bold;">User Stories</h3>
+            <p >
+                We have classified the requirements and the functionalities as user stories:
+                <ul style="font-size: 17px;">
+                    <li>Able to scan the barcode to get IMEI and UPC information</li>
+                    <li>Able to match images and find visually similar images.</li>
+                    <li>Able to get the count of scanned product and segregate it according 
+                        to product model or type or by the info obtained from scanning, and
+                         keep a record of it so that it can be updated in the inventory.</li>
+                    <li>Being able to check the past scanning and then update the stock based on that</li>
+                </ul>
+            </p>
+            <h3 style="margin-top: 8vh; font-size: 18px; font-weight: bold;">Secondary Research</h3>
+            <p>
+                We conducted secondary research using the internet to learn more about the scanning
+                 apps and the technology they employ. We also checked for few applications like Scandit,
+                  that features a host of functionalities and learn from them. We watched some videos of
+                   Samsung employing enterprise-grade Galaxy devices for stock scanning and using AR
+                    technologies to scan products. We learned about several technologies and different
+                     APIs like Google Vision from Cloud Platform and Zbar from SourceForge.
+            </p>
+        <h2 style="font-weight: bold; font-size: 20px; margin-top: 15vh;">UNDERSTANDING USERS</h2>
+        <p style="margin-top: 8vh;">
+            In an inventory there are multiple stores and stores are like rooms which have racks. Racks
+             contain boxes of commodities, could be brand new sealed phone boxes or any other device
+              boxes. The storekeeper or stock manager is the person who is responsible for managing 
+              the stock levels in an inventory and the way they do this is by scanning every commodity 
+              placed in the rack.
+        </p>
+        <p>
+            Instead of scanning each box, its always preferable to scan a group of boxes and the 
+            app should be robust enough to automatically does the rest of the job.</p>
+        </div>
+        <img src="portfolioimages/stock/Our focus.png" width="70%" height="40%" style="margin-top: 10vh; margin-left: 15vw;">
+        <div class="process">
+            <h2 style="font-weight: bold; font-size: 20px; margin-top: 15vh;">IDEATION</h2>
+            <p style="margin-top: 8vh;">After conducting short research and checking other products, I generalized some following insights:
+                <ul style="font-size: 17px;">
+                    <li><b>Robust scanning:</b> User shouldn’t be explicitly selecting the type of codes, symbols, and
+                         info before scanning. The system should be robust enough to detect the symbol and code 
+                         automatically.</li>
+                    <li>
+                        <b>Workflow:</b> We devised a workflow for the process which was-  The user scans the code to 
+                        fetch information or by image, the app fetches scanned information and after the user 
+                        saves the scan, it goes to the History.
+                    </li>
+                    <li>
+                        <b>History:</b> Shows all the scanned data where user can review the scan data and then
+                         they can update the stock based on info fetched from the scan.
+                    </li>
+                </ul>
+            </p>
+</div>
+<img src="portfolioimages/stock/User flow 1.png" width="70%" height="40%" style="margin-top: 10vh; margin-left: 15vw;" >
+<div class="process">
+            <h2 style="font-weight: bold; font-size: 20px; margin-top: 15vh;">DESIGNING</h2>
+            <p>
+                Using the insights I gathered from the research, I began creating user flows.
+                 I started creating the information architecture and low-fi concepts for primary
+                  use cases. After having a go-ahead from the Product Manager, Dev Team, and Stakeholders
+                   on the mockups, we began to sketch. Once we had confidence in the design, we began
+                    digitalizing designs.
+             </p>
+             <h3 style="margin-top: 8vh; font-size: 16px; font-weight: bold;">1. Scanning</h3>
+             <p>
+                This is the home screen, the user has 3 options to Scan, Upload, and History.
+                <ul style="font-size: 17px;">
+                    <li>
+                       <b> Scan:</b> This is the most important function of the app which has been 
+                        kept on top of everything else, user can choose the option to scan By Code or By Image.
+                    </li>
+                    <li>
+                       <b>Upload:</b>  User can upload any image with barcode from their gallery.
+                    </li>
+                    <li>
+                        <b>History:</b> Stores recent scans, user can go back review the scans and update the
+                         stock based on the scans.
+                    </li>
+                </ul>
+             </p>
+</div>
+<img src="portfolioimages/stock/home screen_edited.png" width="60%" height="90%" style="margin-top: 10vh; margin-left: 15vw;">
+<div class="process">
+              <h3 style="margin-top: 8vh; font-size: 16px; font-weight: bold;">2. Select store and rack</h3>
+             <p>
+                First step of the process is to select the store and rack from where we are scanning the 
+                products in. The red wide banner on the top creates a highlight and draws user’s attention 
+                to make sure it is correct without starting to scan.
+             </p>
+             </div>
+             <img src="portfolioimages/stock/design (1).png" width="60%" height="90%" style="margin-top: 10vh; margin-left: 15vw;">
+             <div class="process">
+             <h3 style="margin-top: 8vh; font-size: 16px; font-weight: bold;">3. Scanning</h3>
+             <p>
+                System automatically detects the kind of code and symbol and stores the information 
+                in a swipe up list view. There’s option to browse media from browser without having to
+                 go back to the main menu.
+             </p>
+             </div>
+             <img src="portfolioimages/stock/design (3).png" height="90%" width="60%" style="margin-top: 10vh; margin-left: 20vw;">
+             <div class="process">
+             <h3 style="margin-top: 8vh; font-size: 16px; font-weight: bold;">4. Scan by Image</h3>
+             <p>
+                This feature lets user scan an image taking another image as an reference. So the algorithm
+                 automatically detects similar objects as the reference image, in the frame video and
+                saves the data.
+            </p>
+             </div>
+             <img src="portfolioimages/stock/wf2.png" width="70%" height="50%" style="margin-top: 10vh; margin-left: 15vw;">
+             <div class="process">
+            <p>User can select from bunch of existing references known as templates or they can add new to 
+                the database.And then the system scans the images based on template using image.
+            </p>
+             </div>
+             <img src="portfolioimages/stock/gif.gif" height="35%" width="20%" style="margin-top: 10vh; margin-left:35vw;border-radius: 10px;border:8px solid black;">
+             <div class="process">
+            <h3 style="margin-top: 8vh; font-size: 16px; font-weight: bold;">5. History</h3>
+            <p>
+                All the scanned video and data is stored in History. User can review the stored videos and
+                 the scanned product count done by the system and then update the stock accordingly from here.
+            </p>
+            </div>
+            <img src="portfolioimages/stock/wf3.png" width="70%" height="50%" style="margin-top: 10vh; margin-left: 15vw;">
+            <img src="portfolioimages/stock/design (2).png" height="90%" width="60%" style="margin-top: 15vh; margin-left: 20vw;">
+            <div class="conclusion">
+                <h2 style=" font-size: 30px; letter-spacing: 1.3px;">Conclusion</h2>
+                <p style="margin-top: 8vh; ">
+                    Implementing an automated stock scanning solution using mobile phone camera that would
+                     automatically detect barcodes and fetch stock data which user can update to the system. 
+                     It will eliminate all manual processes from the current asset tracking effort. 
+                     Now, stock managers can simply scan product boxes barcodes with their smart devices
+                      at key points to fetch IMEI or UPC, to update stock entries. Using this video scanning
+                       barcode we can reduce effort of over 500 hours of scanning each box and updating stock. </p>
+            </div>
+            <img src="portfolioimages/stock/results.png" width="50%" height="40%" style="margin-top: 5vh; margin-left: 20vw;">
+            </div>
+            <footer class="footer">
+                <div class="col-lg-5 lets"><h4 class="">Lets connect...</h4>
+                    <div class="icons">
+                        <a href="https://www.linkedin.com/in/nimisha-jain-ux/" target="_blank" style="text-decoration: none;"data-toggle="tooltip" data-placement="bottom"   title="LinkedIn"><i class="fa fa-linkedin space"></i></a>
+                        <a href="mailto:nimisha12jain@gmail.com" data-toggle="tooltip" data-placement="bottom"   title="Email"><i class="fa fa-envelope"></i></a>
+                        <a href="resume.html" target="_blank" style="text-decoration: none;" data-toggle="tooltip" data-placement="bottom"   title="Resume"><i class="fa fa-file"></i></a>
+        </div>
+        <p style="color: grey; font-size: 17px; margin-top: 5vh;">Designed by Nimisha 🦋
+           </p>
+                </div>
+                <p class="dev" >  Special thanks💙 to Mragisha and Raj </p>
+                  
+                        
+                            
+                         
+                      
+               
+              
+                
+        
+            </footer>
+            <script>
+                $(document).ready(function(){
+                  $('[data-toggle="tooltip"]').tooltip();   
+                });
+                </script>
+    </body>
+</html>

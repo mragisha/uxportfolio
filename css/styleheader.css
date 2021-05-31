@@ -1,0 +1,101 @@
+.header{
+    height:5vh;
+    background-color: white;
+    
+}
+.navbar{
+  background-color:white !important;
+  border-bottom: transparent !important;
+  
+  border-top: transparent !important;
+}
+.navbar-header{
+    padding-top: 10px;
+}
+.collapse{
+    padding-top: 10px;
+}
+.navbar-style{
+    
+    padding: 2px 2px;
+    text-transform: capitalize;
+}
+.logo{
+    height:80px;
+    padding: 2px 2px;
+}
+
+li a{
+    color: black;
+    font-size: 18px;
+    font-weight: 100;
+    
+}
+.navcontent li a{
+  color: black !important;
+}
+
+.burger div{
+        
+        width: 25px;
+        height:3px ;
+        background-color: black;
+        margin: 5px;
+        transition: all 0.3s ease;
+
+    }
+    .drop{
+        line-height: 50px;
+    }
+
+    .dropdown:hover>.dropdown-menu{
+      display: block;
+    }
+    
+ 
+    .navbar-default .navbar-nav .under::after{
+    background: none repeat scroll 0 0 transparent;
+  bottom: -3px;
+  content: "";
+  display: block;
+  height: 3px;
+  left: 50%;
+  position: absolute;
+  background:#00a3af;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.navbar-default .navbar-nav .under:hover:after{
+    width: 100%; 
+  left: 0;
+}
+.navbar-default .navbar-nav .current{
+  border-bottom: 3px solid #00a3af;
+}
+.navbar-default .navbar-nav .drop .under1{
+  border-bottom: 3px solid #00a3af;
+}
+.dropdown-menu a.active{
+  background-color:#00a3af ;
+}
+
+@media screen and (max-width: 798px) {
+  .navbar-toggle{
+    border: none;
+  }
+  .white .burger{
+    background-color: white;
+  }
+  .toggle .line1{           
+            transform: rotate(-45deg)translate(-5px,6px);
+        }
+        .toggle .line2{           
+            opacity: 0;
+}
+.toggle .line3{           
+    transform: rotate(45deg) translate(-5px,-6px);
+}
+
+
+  
+}

@@ -1,0 +1,87 @@
+html {
+    scroll-behavior: smooth;
+     }
+   
+
+.text{
+    color:black;
+    padding-top: 15vh;
+    font-size: 40px;
+    font-weight: bold; 
+  
+}
+.text h2,h3{
+    font-weight: bold;
+    opacity: 1;  
+}
+p {
+    font-size: 17px;
+    margin-top: 3vh;
+}
+#matter{
+    margin-top: 10vh;
+}
+.logo2{
+    width: 60%;
+    margin-left: 17vw;
+}
+.matter{
+    margin-top: 15vh;
+    margin-left: 17vw;
+    width: 60%;
+    padding-bottom: 10vh;
+    
+}
+.poster1{
+    padding-top: 10vh;
+}
+.poster{
+     padding-top: 15vh;
+   
+}
+
+
+.imgzoom{
+transition: all .5s linear;
+display: block; 
+
+
+}
+.imgzoom:hover{
+
+transform: scale(1.3);
+transition: all .5s linear;
+
+
+}
+.material-icons{
+    padding-top: 30vh;
+}
+.material-icons a{
+    text-decoration: none;
+    font-size: 8vh;
+    color: #00DBB3;
+}
+
+@media screen and (max-width: 768px){
+    .poster1 img{
+        margin-top: 5vh;
+        height: 30vh;
+        width: 40vw;
+        margin-left: 20vw;
+    }
+    .poster img{
+        margin-top: 5vh;
+        height: 30vh;
+        width: 40vw;
+        margin-left: 20vw;
+    }
+    .imgzoom:hover{
+
+transform: scale(1.2);
+transition: all .5s linear;
+
+
+}
+
+}

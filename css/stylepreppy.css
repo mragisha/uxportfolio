@@ -1,0 +1,86 @@
+html {
+    scroll-behavior: smooth;
+    
+    }
+    body{
+        font-family: 'Open Sans', sans-serif;
+    }
+   
+  
+        .heading{
+            text-align: left;
+            margin-top: 20vh;
+        }
+        .intro{
+            margin-top: 25vh;
+            line-height: 65px;
+            text-align: center;
+            letter-spacing: 1.3px;
+           
+        }
+        .arrow {
+            margin-top: 10vh;
+            margin-right: 40vw;
+            font-size: 30px;
+            color: #00a3af;
+            text-align: center;
+           
+        }
+            .overview{
+                margin-top: 40vh;
+                margin-left: 17vw;
+                width: 60%;
+            }
+            .myrole{
+                margin-top: 15vh;
+                margin-left: 17vw;
+                width: 60%;
+            }
+            .process{
+                margin-top: 20vh;
+                margin-left: 17vw;
+                width: 60%;
+            }
+            .personascenarios,.affinitydiagram,.howmightwe,.is,.prototyping,.usabilitytesting,.finalversion,.conclusion{
+                margin-top: 15vh;
+                margin-left: 17vw;
+                font-size: 17px;
+                width: 60%;
+            }
+            
+        
+
+        @media screen and (max-width: 768px) {
+           video{
+               width: 200px;
+               height:400px;
+           }
+           .arrow{
+              
+              
+              margin-left: 45%;
+           }
+           .mainimg{
+               width: 30%;
+               height: 20%;
+           }
+           .smallimg{
+               width: 50%;
+               height: 50%;
+               margin-left: 20vw;
+           }
+           .sketchimg{
+            margin-top: 10vh;
+            margin-left: 8vh;
+            width: 60%;
+            height: 60%;
+        }
+           .heading{
+            text-align: center;
+            margin-top: 10vh;
+        }
+        .intro{
+            margin-top: 10vh;
+        }
+        }
+        

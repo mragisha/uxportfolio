@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+html {
+            scroll-behavior: smooth;
+}
+
+            
+.max-height{
+    margin-top: 10vh;
+    background: url('portfolioimages\logo\logo.jpg') rgba(170, 170, 170, 0.5);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    position: relative;
+    min-height: 90vh ;
+    min-width: 70vw;
+    
+}
+
+
+.behind{
+    color:white;
+    margin-top: 40vh;
+    font-size: 40px;
+    font-weight: bold;
+    
+    
+}
+.arrow{
+    margin-top: 20vh;
+    font-size: 30px;
+    color: #00a3af;
+    align-items: center;
+}
+.py-5{
+    padding-top: 10rem !important;
+    padding-bottom: 3rem !important;
+}
+.my-5{
+    margin-top: 5rem !important;
+    margin-bottom: 5rem !important;
+    width: 60%;
+    margin-left: 17vw;
+   
+    text-align: center;
+    
+}
+.size{
+    text-align: left;
+    
+    font-size: 17px;
+    margin-left: 50px;
+    word-spacing: 3px;
+  
+    
+}
+img{
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.image{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    width:70vw;
+}
+
+.image1{
+    margin-top:30px;
+    padding-top: 90px;
+    padding-bottom: 50px;
+    width:40vw;
+    height:100vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+.image2{
+    margin-top: 70px;
+    
+    width:45vw;
+    height:100vh;
+}
+@media screen and (max-width: 768px){
+            .image2 {
+                margin-top: 5vh;
+                height: 80vh;
+                width: 80vw;
+            }
+            .image1 {
+                margin-top: 5vh;
+                height: 50vh;
+                width: 70vw;
+            }
+        }
+        

@@ -1,0 +1,76 @@
+html {
+    scroll-behavior: smooth;
+     }
+     .intro{
+        margin-top: 6vh;
+        text-align: center;
+    }
+    .intro img{
+        margin-top: 5vh;
+        height: 40%;
+        width: 40%;
+    }
+    .intro h1{
+        font-weight: bold;
+    }
+    
+    
+    
+    .imagegrp p{
+        width: 60%;
+        margin-left: 17vw;
+        font-size: 0.9vw;
+    }
+.heading{
+    text-align: left;
+    margin-top: 30vh;
+}
+
+.arrow {
+    margin-top: 0;
+    margin-left: 41vw;
+    font-size: 30px;
+    color: #00a3af;
+   
+}
+.overview {
+    margin-top: 40vh;
+    margin-left: 17vw;
+}
+.myrole,
+.conclusion,.process,.overview {
+    margin-top: 15vh;
+    margin-left: 17vw;
+    width: 60%
+}
+.process {
+    margin-top: 20vh;
+    margin-left: 17vw;
+}
+p {
+    font-size: 17px;
+    margin-top: 3vh;
+}
+.heading span{
+    font-size: 38px;
+}
+.conclusion{
+    padding-bottom: 20vh;
+}
+@media screen and (max-width: 768px){
+    .heading{
+        text-align: center;
+        margin-top: 3vh;
+    }
+    .heading span{
+        font-size: 30px;
+    }
+    .intro{
+        margin-top: 15vh;
+        margin-bottom: 35vh;
+    }
+    .intro img{
+        height: 70% ;
+        width: 70%;
+    }
+}

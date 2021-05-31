@@ -1,0 +1,63 @@
+html {
+    scroll-behavior: smooth;
+    }
+  
+    .intro{
+        margin-top: 6vh;
+        text-align: center;
+    }
+    .intro img{
+        margin-top: 5vh;
+        height: 50%;
+        width: 50%;
+    }
+    .intro h1{
+        font-weight: bold;
+    }
+    .overview{
+            margin-top: 10vh;
+            margin-left: 17vw;
+        }
+        .material-icons{
+            margin-top: 5vh;
+            cursor: pointer;
+        }
+        .material-icons a{
+            text-decoration: none;
+            font-size: 50px;
+
+            color: #00DBB3;
+        }
+
+        .myrole,
+    .conclusion,.process,.overview,.ideation {
+        margin-top: 15vh;
+        margin-left: 17vw;
+        width: 60%
+    }
+        p {
+        font-size: 17px;
+        margin-top: 3vh;
+    }
+    ul{
+        font-size: 17px;
+    }
+    .imagegrp p{
+        width: 60%;
+        margin-left: 17vw;
+        font-size: 0.9vw;
+    }
+    .conclusion{
+        padding-bottom: 20vh;
+    }
+
+    @media screen and (max-width: 768px){
+      .intro{
+          margin-top: 15vh;
+          margin-bottom: 35vh;
+      }
+      .intro img{
+          height: 70% ;
+          width: 70%;
+      }
+    }

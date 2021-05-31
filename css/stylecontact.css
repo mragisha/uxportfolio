@@ -1,0 +1,15 @@
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.responsive {
+    width: 70%;
+    height: 70%;
+  }
+.centre{
+    
+    text-align: center;
+}
+.centre img{
+    text-align: center;
+}

@@ -1,0 +1,100 @@
+html {
+    scroll-behavior: smooth;
+
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.intro{
+    margin-top: 6vh;
+    text-align: center;
+}
+.intro img{
+    margin-top: 5vh;
+    height: 40%;
+    width: 40%;
+}
+.intro h1{
+    font-weight: bold;
+}
+
+
+
+.imagegrp p{
+    width: 60%;
+    margin-left: 17vw;
+    font-size: 0.9vw;
+}
+
+
+.heading{
+    text-align: left;
+    margin-top: 25vh;
+}
+.heading span{
+    font-size: 38px;
+}
+
+.overview {
+    margin-top: 40vh;
+    margin-left: 17vw;
+}
+
+.myrole,
+.personascenarios,
+.is,
+.wireframes,
+.finalscreens,
+.conclusion,.process,.overview {
+    margin-top: 15vh;
+    margin-left: 17vw;
+    width: 60%
+}
+
+
+.process {
+    margin-top: 20vh;
+    margin-left: 17vw;
+}
+
+p {
+    font-size: 17px;
+    margin-top: 3vh;
+}
+.conclusion{
+    padding-bottom: 20vh;
+}
+
+
+
+@media screen and (max-width: 768px){
+    .boy img {
+        margin-left: 10vw !important;
+        
+    }
+    .heading{
+        text-align: center;
+        margin-top: 8vh;
+    }
+    .idea div{
+        text-align: center; 
+    }
+    .idea div img{
+        width:60%;
+    height: 60%;  
+ }
+ 
+ .heading span{
+     font-size: 30px;
+ }
+ .intro{
+    margin-top: 15vh;
+    margin-bottom: 35vh;
+}
+.intro img{
+    height: 70% ;
+    width: 70%;
+}
+}
+
+
